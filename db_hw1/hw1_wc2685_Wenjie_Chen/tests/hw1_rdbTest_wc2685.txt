@@ -1,0 +1,72 @@
+uni:wc2685 
+name:Wenjie Chen
+
+
+test result: 
+
+RDB_test(RDBDataTable test):
+
+1. find_by_template_test:
+
+perfoming find_by_template_test:
+[{'playerID': 'wc2685', 'birthYear': 1996, 'birthMonth': None, 'birthDay': None, 'birthCountry': None, 'birthState': None, 'birthCity': None, 'deathYear': None, 'deathMonth': None, 'deathDay': None, 'deathCountry': None, 'deathState': None, 'deathCity': None, 'nameFirst': 'WENJIE', 'nameLast': 'Chen', 'nameGiven': None, 'weight': None, 'height': None, 'bats': None, 'throws': None, 'debut': None, 'finalGame': None, 'retroID': None, 'bbrefID': None}]
+
+Process finished with exit code 0
+
+
+2. find_by_primary_key_test:
+
+perfoming find_by_primary_key_test:
+[{'playerID': 'wc2685', 'birthYear': None, 'birthMonth': None, 'birthDay': None, 'birthCountry': None, 'birthState': None, 'birthCity': None, 'deathYear': None, 'deathMonth': None, 'deathDay': None, 'deathCountry': None, 'deathState': None, 'deathCity': None, 'nameFirst': 'WENJIE', 'nameLast': 'Chen', 'nameGiven': None, 'weight': None, 'height': None, 'bats': None, 'throws': None, 'debut': None, 'finalGame': None, 'retroID': None, 'bbrefID': None}]
+
+Process finished with exit code 0
+
+
+3. insert_test:
+
+insert:
+{'playerID': 'wc2685', 'nameLast': 'Chen', 'nameFirst': 'Wenjie', 'birthYear': '1996'}
+
+Process finished with exit code 0
+
+
+4. delete_by_template_test:
+
+performing delete_by_template_test:
+deleted and the affected_num is:
+1
+
+Process finished with exit code 0
+
+
+5. delete_by_key_test:
+
+perfoming delete_by_key_test:
+deleted and the affected_num is:
+1
+
+Process finished with exit code 0
+
+
+6. update_by_template_test:
+
+perfoming update_by_template_test:
+updated and the affected_num is:
+1
+
+Process finished with exit code 0
+
+
+7. update_by_key_test:
+
+perfoming update_by_key_test:
+updated and the affected_num is:
+1
+
+Process finished with exit code 0
+
+
+RDB_test finished.
+
+
+
